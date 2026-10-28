@@ -8,3 +8,5 @@ def count_long_titles(): #функция подсчета книг с назва
             if len(row[1]) > 30: #длина названия
                 c += 1
     return c
+
+print(count_long_titles())
